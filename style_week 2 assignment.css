@@ -1,0 +1,92 @@
+* {
+  box-sizing: border-box;
+  font-family: Helvetica;
+}
+h1 {
+  margin-bottom: 15px;
+  text-align: center;
+  font-size: 175%;
+}
+span {
+  border-left :2px solid black;
+  border-bottom: 2px solid black;
+  text-align: center;
+  width: 100px;
+  height:30px;
+  float: right;
+  margin-top: 0px;
+  padding-top: 5px;
+  font-weight: bold;
+  font-size: 125%;
+}
+.title1{
+  background: pink;
+}
+.title2{
+  background: red;
+  color:white;
+}
+.title3{
+  background: yellow;
+}
+
+p{
+
+  margin: 10px;
+  background-color:grey;
+  border: 2px solid black;
+  overflow:auto;
+  height: 200px;
+}
+element{
+  margin: 10px;
+  clear: right;
+  float:left;
+}
+/* Simple Responsive Framework. */
+.row {
+  width: 100%;
+}
+/********** Computer devices only **********/
+@media (min-width: 992px) {
+  .col-lg-4 {
+    float: left;
+    
+   
+  }
+  
+  .col-lg-4 {
+    width: 33.33%;
+  }
+  
+}
+/********** Tablet devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+  .col-md-6, .col-md-12 {
+    float: left;
+   
+    
+  }
+ 
+  .col-md-6 {
+    width: 50%;
+  }
+ 
+  .col-md-12 {
+    width: 100%;
+  }
+}
+/********** Mobile devices only **********/
+@media (max-width: 767px) {
+  .col-sm-12 {
+    float: left;
+    
+    
+
+    
+  }
+  
+  .col-sm-12 {
+    width: 100%;
+  }
+}
